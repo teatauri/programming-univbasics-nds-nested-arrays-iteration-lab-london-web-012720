@@ -50,5 +50,7 @@ row_index = 0
         result << src[row_index]
       end 
     end
-  row_index += 1 
+    row_index += 1 
+  end
+  return result
 end
