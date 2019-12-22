@@ -42,7 +42,7 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   
-total = []
+total = 0
 row_index = 0 
   while row_index < src.length do 
     if src[row_index][0] %2 == 0 
